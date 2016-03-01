@@ -1,0 +1,24 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyChart</title>
+  <link href="./css/chart.css" rel="stylesheet">
+</head>
+<body>
+  <div class='wrapper'>
+    <div class="hf_clr right_chart">
+      <div id="right_hfcl" class="right_gray hf_clr trans"></div>
+    </div>
+    <div class="hf_clr left_chart">
+      <div id="left_hfcl" class="left_gray hf_clr trans"></div>
+    </div>
+    <div class="cover_dv"></div>
+  </div>
+  <input type="range" name="name" value="24" oninput="javascript:setProgress(this.value);" min="0" max="100">
+  <input id="progressDv" type="text" name="name" value="24">
+  <script type="text/javascript" src="./js/jquery-2.2.1.min.js"></script>
+  <script type="text/javascript" src="./js/chart.js"></script>
+</body>
+</html>
